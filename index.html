@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ieradumu izsekotājs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ieradumu izsekotājs</h1>
+        
+        <!-- Ieraksta jaunu ieradumu -->
+        <div class="habit-form">
+            <input type="text" id="habit-name" placeholder="Ieraduma nosaukums">
+            <select id="habit-frequency">
+                <option value="daily">Katru dienu</option>
+                <option value="weekly">Reizi nedēļā</option>
+                <option value="monthly">Reizi mēnesī</option>
+            </select>
+            <input type="number" id="habit-goal" placeholder="Mērķis (dienas)" min="1">
+            <button id="add-habit">Pievienot ieradumu</button>
+        </div>
+
+        <h2>Mani ieradumi</h2>
+        <div id="habits-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

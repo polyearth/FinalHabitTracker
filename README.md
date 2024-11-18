@@ -1,0 +1,1 @@
+Šajā ieradumu izsekotājā ir iespēja pievienot un apstrādāt ieradumus.
